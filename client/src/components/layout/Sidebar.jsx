@@ -42,7 +42,7 @@ function Sidebar({ isOpen, onClose, onOpen }) {
       >
         <div className="mb-8 flex items-center justify-between">
           <div>
-            <p className="text-xs uppercase tracking-wide text-muted">GridBricks</p>
+            {/* <p className="text-xs uppercase tracking-wide text-muted">GridBricks</p> */}
             <h1 className="text-xl font-extrabold text-ink">Energy Analytics</h1>
           </div>
           <button
