@@ -8,7 +8,6 @@ router = APIRouter()
 
 
 def _to_json_safe_records(df):
-    # FastAPI/Starlette JSON responses reject NaN/Infinity, so coerce them to null.
     sanitized = df.replace([np.inf, -np.inf], np.nan)
     sanitized = sanitized.astype(object).where(sanitized.notna(), None)
     return sanitized.to_dict(orient="records")

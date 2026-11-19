@@ -9,6 +9,7 @@ The application helps UK energy procurement teams understand wind generation for
 - **Frontend:** https://energy-analytics-git-main-saarth1.vercel.app/
 - **Backend API:** https://energyanalytics-dmio.onrender.com
 - **API Documentation:** https://energyanalytics-dmio.onrender.com/docs
+- **Project Explanation:** https://youtu.be/D6TxWdaV2gA
 
 ## Problem Statement
 
@@ -388,7 +389,3 @@ AI-assisted development was combined with manual implementation, testing, debugg
 - The application provides forecast visibility and accuracy analysis; it does not calculate the utility's final electricity procurement requirement.
 - Forecast and actual generation have different time resolutions in the downloaded datasets, which affects forecast availability and the intervals included in accuracy calculations.
 - The day-ahead decision cutoff is assumed to be 24 hours before delivery.
-
-## License
-
-This project was developed as part of the GridBricks Full Stack Software Engineering Hiring Challenge.
